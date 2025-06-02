@@ -10,6 +10,7 @@ export class CreateUserUseCase {
         private usersRepository: IUsersRepository,
         private mailProvider: IMailProvider,
     ) {
+        
     }
     
     async execute(data: ICreateUserRequestDTO ) { // when execute
